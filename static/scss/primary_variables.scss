@@ -1,0 +1,14 @@
+// Colors
+$o-color-palettes: ();
+$o-color-palettes: append($o-color-palettes, (
+    'body': #c2ac92,
+    'menu':  #53453f,
+    'footer': #2c2c2c,
+    'text': #ffffff,
+    'h1': null, // Default to text
+    'h2': null, // Default to h1
+    'h3': null, // Default to h2
+    'h4': null, // Default to h3
+    'h5': null, // Default to h4
+    'h6': null, // Default to h5
+));
