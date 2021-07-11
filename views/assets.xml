@@ -10,4 +10,9 @@
             <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/scss/primary_variables.scss"/>
         </xpath>
     </template>
+    <template id="_assets_frontend_helpers" inherit_id="website._assets_frontend_helpers">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/theme_tutorial/static/scss/bootstrap_overridden.scss"/>
+        </xpath>
+    </template>
 </odoo>
